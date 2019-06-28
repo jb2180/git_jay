@@ -1,0 +1,7 @@
+Let's start with the tutorial 
+
+First and foremost thing in project collaboration is downloading the project:
+git init for initiating a repository
+
+1> git clone your dir
+
