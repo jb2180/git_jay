@@ -4,24 +4,6 @@ Git is a vcs -- some intro history and why a vcs shall be used ?
 
 What are git repos ? 
 
-
-
-First and foremost thing in project collaboration is downloading the project:
-git init for initiating a repository
-
-git commit -m "your message"
-
-if you want to perform some changes after having commited
-make changes and then do 
-git add .
-
-git add 
-
-1> git clone your dir
-
-
-
-
 ---------------------------
 
 origin -- the url/start of the repo(project).
