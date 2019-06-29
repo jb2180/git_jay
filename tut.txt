@@ -1,7 +1,94 @@
 Let's start with the tutorial 
 
+Git is a vcs -- some intro history and why a vcs shall be used ?
+
+What are git repos ? 
+
+
+
 First and foremost thing in project collaboration is downloading the project:
 git init for initiating a repository
 
+git commit -m "your message"
+
+if you want to perform some changes after having commited
+make changes and then do 
+git add .
+
+git add 
+
 1> git clone your dir
+
+
+
+
+---------------------------
+
+origin -- the url/start of the repo(project).
+
+repo -contains history of collect of files 
+
+working tree - the entire collection of files created through a version of repo is called as working tree
+
+staging -- to be used to include the files to be commited in the next commit
+
+staged -- stored for commit.
+
+----------------------------------basic
+phase 1
+
+1>first init repo
+
+2>second make changes (fact prog)
+
+--use of status
+
+3>third stage changes
+
+4>see the changes using status
+
+(if you change some files that are already staged , restage it and then commit).
+
+5>fourth add files staged to the remote repo
+
+(head not upto remote stream)
+
+-----------------------------------rm
+
+if you want to remove files use it using git rm filename
+
+then git add . to update the new changes
+
+followed by new work
+
+---------------------------------- amend
+
+if the changes you made in the last commit were wrong
+
+then make the required changes
+
+do git commit --amend -m "dfdfd"
+
+---------------------------------- add origin
+
+1>add the remote repo as a origin.
+(git remote add)
+
+2>then do update the repo on remote.
+
+------------------------------------ adding upstream 
+
+1> git add remote upstream url
+
+2>then now you can commit to this repo using git push upstream master (to from owner)
+
+---------------------------------pulling from the repo
+
+1>before starting just pull your remote updated repo from the server using 
+git pull upstream master 
+
+
+
+
+
 
