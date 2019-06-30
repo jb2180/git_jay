@@ -17,6 +17,6 @@ int main(){
 	/* This is a sample program*/
 	int sm;
 	cin>>sm;
-	cout<<fact(sm);
+	cout<<fact(sm);add;
 	return 0;
 }
